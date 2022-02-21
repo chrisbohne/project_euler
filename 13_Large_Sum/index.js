@@ -1,5 +1,5 @@
-function largeSum(arr) {
-  return arr
+function largeSum(numsArr) {
+  return numsArr
     .reduce((prev, curr) => prev + curr)
     .toString()
     .replace(/\./g, "")
